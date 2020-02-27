@@ -1,4 +1,5 @@
 from ap2p_model import Ap2p
+
 from PIL import Image
 
 インスタンス化

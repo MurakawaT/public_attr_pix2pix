@@ -1,6 +1,7 @@
 # ［論文実装］ 性別を指示して高解像度化 [python][keras]
 
-<img alt=”result” src=”https://github.com/MurakawaT/public_attr_pix2pix/blob/master/result.png” />
+### 参考
+http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1035.pdf
 
 `from ap2p_model import Ap2p`
 

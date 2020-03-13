@@ -48,8 +48,8 @@ ap2p.combined.summary()
 
 第二引数は　属性情報の強度　(スカラー値, 目安：1 <= 強度 <=5)
 
-img_attr 指定した強度で属性on
+img_attr 指定した強度で属性onの出力画像
 
-img_non_attr 属性off
+img_non_attr 属性offの出力画像
 
 img_attr, img_non_attr は　-1 から 1 の画素値

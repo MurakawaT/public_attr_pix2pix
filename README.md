@@ -1,13 +1,16 @@
+
+<img alt=”右から順に入力低解像度画像（bicubic法で単純拡大）、男性として高解像度化した画像、女性として高解像度化した画像” src=”https://github.com/MurakawaT/public_attr_pix2pix/result.png” />
+
 `from ap2p_model import Ap2p`
 
 `from PIL import Image`
 
-###インスタンス化
+### インスタンス化
 
 `ap2p = Ap2p()`
 
 
-###モデル確認用
+### モデル確認用
 
 ~~~
 ap2p.generator.summary()
@@ -18,12 +21,12 @@ ap2p.combined.summary()
 ~~~
 
 
-###重み読み込み
+### 重み読み込み
 
 `ap2p.load_weights( path )`
 
 
-###学習
+### 学習
 
 `loss = ap2p.train(imgs_source, attr)`
 
@@ -34,13 +37,13 @@ ap2p.combined.summary()
 画像のリストの長さはミニバッチサイズ
 
 
-###重み保存
+### 重み保存
 
 `ap2p.save_weights( path )`
 
 
 
-###予測 
+### 予測 
 
 `img_attr, img_non_attr = ap2p.pred(imgs,5)`
 

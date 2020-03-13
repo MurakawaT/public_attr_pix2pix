@@ -1,6 +1,3 @@
-
-<img alt=”右から順に入力低解像度画像（bicubic法で単純拡大）、男性として高解像度化した画像、女性として高解像度化した画像” src=”https://github.com/MurakawaT/public_attr_pix2pix/result.png” />
-
 `from ap2p_model import Ap2p`
 
 `from PIL import Image`

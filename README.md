@@ -1,10 +1,10 @@
-from ap2p_model import Ap2p
+`from ap2p_model import Ap2p`
 
-from PIL import Image
+`from PIL import Image`
 
 インスタンス化
 
-ap2p = Ap2p()
+`ap2p = Ap2p()`
 
 
 モデル確認用

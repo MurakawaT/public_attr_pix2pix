@@ -1,3 +1,5 @@
+# ［論文実装］ 性別を指示して高解像度化 [python][keras]
+
 `from ap2p_model import Ap2p`
 
 `from PIL import Image`

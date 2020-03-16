@@ -234,7 +234,7 @@ class Ap2p():
         attr_gene_valid *= strength
 
         #　もう一つの属性情報を生成
-        attr_flag_fake = strength - attr_flag_valid
+        attr_flag_fake = 1 - attr_flag_valid
         #　変形
         attr_gene_fake = np.zeros((batch_size,)+ self.gene_attr_shape) + attr_flag_fake.reshape((batch_size,1,1,1))
 
